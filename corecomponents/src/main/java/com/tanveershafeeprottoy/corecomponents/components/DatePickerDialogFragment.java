@@ -18,8 +18,8 @@ public class DatePickerDialogFragment extends DialogFragment {
     }
 
     @NonNull
-    public static com.biyelap.core.basecomponents.DatePickerDialogFragment newInstance() {
-        return new com.biyelap.core.basecomponents.DatePickerDialogFragment();
+    public static DatePickerDialogFragment newInstance() {
+        return new DatePickerDialogFragment();
     }
 
     @NonNull

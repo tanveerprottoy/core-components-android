@@ -20,8 +20,8 @@ public class TimePickerDialogFragment extends DialogFragment {
     }
 
     @NonNull
-    public static com.biyelap.core.basecomponents.TimePickerDialogFragment newInstance() {
-        return new com.biyelap.core.basecomponents.TimePickerDialogFragment();
+    public static TimePickerDialogFragment newInstance() {
+        return new TimePickerDialogFragment();
     }
 
     @NonNull
